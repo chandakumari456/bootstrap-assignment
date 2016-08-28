@@ -1,0 +1,130 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   footer{
+     background: black;
+     padding: 20px;
+     color: white;
+     font-size: 11px;
+   }
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   .well .page-header {
+   	margin-top: 0;
+   }
+   .container{
+     height: auto;
+   }
+   ul div{
+     height: auto;;
+   }
+   body { padding-top: 100px; }
+
+ul.unstyled{
+  padding: 0;
+  list-style: none;
+}
+
+#unordered{
+  list-style : none;
+}
+#back_img{
+  margin-top: 100px;
+  height: 40px;
+  width: 90%;
+  align-items: center;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+     width: 200px;
+   }
+   .navbar-brand{
+     margin: 13px,15px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel{
+  margin-top: 780px;
+  align-items: center;
+}
+#myCarousel .item{
+  height: 300px;
+}
+#slide1{
+  background: url("../../images/medal.jpg") top center no-repeat;
+}
+#slide2{
+  background: url("../../images/pvsindhu.jpg") top center no-repeat;
+}
+#slide3{
+  background: url("../../images/col1.jpg") top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well{
+  margin: 20px,0px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item { height: 210px; }
+  #slide1{
+    background: url("../../images/medal.jpg") top center no-repeat;
+  }
+  #slide2{
+    background: url("../../images/pvsindhu.jpg") top center no-repeat;
+  }
+  #slide3{
+    background: url("../../images/col1.jpg") top center no-repeat;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#myCarousel .item { height: 400px; }
+#slide1{
+  background: url("../../images/medal.jpg") top center no-repeat;
+}
+#slide2{
+  background: url("../../images/pvsindhu.jpg") top center no-repeat;
+}
+#slide3{
+  background: url("../../images/col1.jpg") top center no-repeat;
+}
+.carousel-caption p {font-size: 22px;}
+
+}
