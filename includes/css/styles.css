@@ -100,6 +100,9 @@ ul.unstyled{
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+  #back_img{
+    background: url("../../images/logo1_small.jpg");
+  }
   #slide1{
     background: url("../../images/slider1_small.jpg") top center no-repeat;
   }
@@ -114,6 +117,9 @@ ul.unstyled{
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
   #myCarousel .item { height: 210px; }
+  #back_img{
+    background: url("../../images/logo1_medium.jpg");
+  }
   #slide1{
     background: url("../../images/slider1_medium.jpg") top center no-repeat;
   }
@@ -128,6 +134,9 @@ ul.unstyled{
 /* Large desktop */
 @media (min-width: 1200px) {
 #myCarousel .item { height: 400px; }
+#back_img{
+  background: url("../../images/logo1_large.jpg");
+}
 #slide1{
   background: url("../../images/slider1_large.jpg") top center no-repeat;
 }
