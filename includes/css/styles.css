@@ -47,9 +47,10 @@ ul.unstyled{
   list-style : none;
 }
 #back_img{
+  background: url("../../images/logo1_large.jpg");
   margin-top: 100px;
-  height: 40px;
-  width: 90%;
+  height: 600px;
+  width: 100%;
   align-items: center;
 }
 /* --------------------------------------
@@ -68,14 +69,14 @@ ul.unstyled{
    -------------------------------------- */
 
 #myCarousel{
-  margin-top: 580px;
+  margin-top: 60px;
   align-items: center;
 }
 #myCarousel .item{
   height: 300px;
 }
 #slide1{
-  background: url("../../images/slider1_medium.jpg") top center no-repeat;
+  background: url("../../images/slider1_large.jpg") top center no-repeat;
 }
 #slide2{
   background: url("../../images/slider2_medium.jpg") top center no-repeat;
