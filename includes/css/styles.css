@@ -33,7 +33,10 @@ Notes:	 Hand coded for Udemy.com
    ul div{
      height: auto;;
    }
-   body { padding-top: 100px; }
+   body {
+     padding-top: 100px;
+     margin: auto;
+   }
 
 ul.unstyled{
   padding: 0;
@@ -65,20 +68,20 @@ ul.unstyled{
    -------------------------------------- */
 
 #myCarousel{
-  margin-top: 780px;
+  margin-top: 580px;
   align-items: center;
 }
 #myCarousel .item{
   height: 300px;
 }
 #slide1{
-  background: url("../../images/medal.jpg") top center no-repeat;
+  background: url("../../images/slider1_medium.jpg") top center no-repeat;
 }
 #slide2{
-  background: url("../../images/pvsindhu.jpg") top center no-repeat;
+  background: url("../../images/slider2_medium.jpg") top center no-repeat;
 }
 #slide3{
-  background: url("../../images/col1.jpg") top center no-repeat;
+  background: url("../../images/col1_medium.jpg") top center no-repeat;
 }
 
 
@@ -96,20 +99,28 @@ ul.unstyled{
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+  #slide1{
+    background: url("../../images/slider1_small.jpg") top center no-repeat;
+  }
+  #slide2{
+    background: url("../../images/slider2_small.jpg") top center no-repeat;
+  }
+  #slide3{
+    background: url("../../images/col1_small.jpg") top center no-repeat;
+  }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
   #myCarousel .item { height: 210px; }
   #slide1{
-    background: url("../../images/medal.jpg") top center no-repeat;
+    background: url("../../images/slider1_medium.jpg") top center no-repeat;
   }
   #slide2{
-    background: url("../../images/pvsindhu.jpg") top center no-repeat;
+    background: url("../../images/slider2_medium.jpg") top center no-repeat;
   }
   #slide3{
-    background: url("../../images/col1.jpg") top center no-repeat;
+    background: url("../../images/col1_medium.jpg") top center no-repeat;
   }
 }
 
@@ -117,13 +128,13 @@ ul.unstyled{
 @media (min-width: 1200px) {
 #myCarousel .item { height: 400px; }
 #slide1{
-  background: url("../../images/medal.jpg") top center no-repeat;
+  background: url("../../images/slider1_large.jpg") top center no-repeat;
 }
 #slide2{
-  background: url("../../images/pvsindhu.jpg") top center no-repeat;
+  background: url("../../images/slider2_large.jpg") top center no-repeat;
 }
 #slide3{
-  background: url("../../images/col1.jpg") top center no-repeat;
+  background: url("../../images/col1_large.jpg") top center no-repeat;
 }
 .carousel-caption p {font-size: 22px;}
 
