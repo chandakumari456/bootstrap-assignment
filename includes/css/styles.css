@@ -92,6 +92,10 @@ ul.unstyled{
 .well{
   margin: 20px,0px;
 }
+.social-links{
+  display: inline;
+  style:none;
+}
 
 
 /* --------------------------------------
